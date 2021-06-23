@@ -4,7 +4,6 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="../src/game.css">
-	<link rel="stylesheet" href="https://use.typekit.net/aqr1jcm.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- jQuery library -->
@@ -15,29 +14,29 @@
 	<link rel="stylesheet" type="text/css" href="../src/game.css">
 </head>
 <body>
-	<div class="gradient vh100">
 	<div id="homemade_jeopardy_title" class="centered">
-		<h1 id="homemade_jeopardy_title">litipride jeopardy <br/> team view</h1>
+		<h1 id="homemade_jeopardy_title">Homemade Jeopardy <br/> Team View</h1>
 		<a id="home_button" href="../">
-      		<button class="fa">&nbsp;Back</button>
+      		<button class="fa fa-caret-square-o-left">&nbsp;Back</button>
       	</a>
+		<hr/>
 	</div>
 	<div id="main_section">
 
 		<div id="enter_game_code_section" class="hidden">
-			<h2 class="homepage-heading">step 1: enter game code</h2>
-			<input id="player_game_code" type="text" name="player_game_code" class="gay-input">
+			<h2>Step 1: Enter Game Code</h2>
+			<input id="player_game_code" type="text" name="player_game_code">
 			<br/><br/>
-			<button type="submit" value="Enter" class="button_mash identify_yourself" id="team-button" onclick="lookup_game()">
-				<h4>submit</h4>
+			<button type="submit" value="Enter" class="button_mash" onclick="lookup_game()">
+				Enter
 			</button>
 		</div>
 
 		<div id="enter_team_name_section" class="hidden">
 			<h2>Step 2: Enter Team Name</h2>
-			<input id="team_name" type="text" name="team_name" class="gay-input">
+			<input id="team_name" type="text" name="team_name">
 			<br/><br/>
-			<button id="create_team_button team-button" type="submit" value="Enter" class="button_mash" onclick="create_team()">
+			<button id="create_team_button" type="submit" value="Enter" class="button_mash" onclick="create_team()">
 				Create Team
 			</button><br/>
 			<img id="loading_gif" class="hidden" src="../assets/img/loading1.gif" class="hidden">
@@ -68,7 +67,6 @@
 		</div>
 
 	
-	</div>
 	</div>
 </body>
 	<!-- Common Code -->
