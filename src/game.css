@@ -1,0 +1,283 @@
+/* HOW TO PLAY */
+
+	.how_to_play_section { background-color:red;color:white; text-align:center; }
+	.how_to_play_section .instruction { font-size:150%; }
+
+/* GENERAL */
+	body{ 
+		margin:0px; 
+		padding:0px; 
+		color: oldlace; 
+		font-family: degular-text;
+	}
+	button{
+		font-family: degular-text;
+	}
+	.gradient {
+		color: oldlace;
+		background-image: radial-gradient(
+			circle at -70% -35%,
+			#edf110,
+			hsla(0, 0%, 100%, 0) 20%
+		  ),
+		  linear-gradient(141deg, #ff8a3e 0%, hsla(180, 100%, 25%, 0) 100%),
+		  linear-gradient(181deg, #00ff5e 1%, rgba(255, 255, 255, 0) 55%),
+		  radial-gradient(
+			circle at -65% -104%,
+			#7234db 38%,
+			rgba(255, 255, 255, 0) 86%
+		  ),
+		  linear-gradient(83deg, #4234f2 40%, rgba(255, 255, 255, 0) 100%),
+		  linear-gradient(262deg, #3acde3 49%, rgba(255, 255, 255, 0) 70%);
+	}
+	.vh100{
+		min-height: 100vh;
+	}
+	.vw50{
+		width: 80vw;
+		margin: auto;
+	}
+	.hidden { display:none; }
+	.invisible { visibility: hidden; }
+	#home_button button { 
+		background-color:transparent; 
+		color: oldlace; 
+		text-transform: lowercase;
+	}
+	.header { font-size:50px !important; }
+	.centered{ text-align:center;  }
+	.center_section_50 { width:50%; margin:auto; }
+	.center_section_60 { width:60%; margin:auto; }
+	.center_section_70 { width:70%; margin:auto; }
+	.center_section_80 { width:80%; margin:auto; }
+	
+	.button_mash { font-size:140%; cursor:pointer;  }
+	.input_mash { width:80%; font-size:140%; text-align:center;  }
+	.pointer { cursor:pointer }
+
+	.savetestplay_button {
+		border: 2px solid oldlace;
+		border-radius: 20px;
+		background-color: transparent;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		color: oldlace; 
+		text-transform: lowercase;
+		font-family: degular-display;
+	}
+
+	.hyperlink { 
+		background-color:blue; 
+		color:white;
+		position:static;
+	}
+
+	.jeopardy_image{ max-width:95%; }
+	#homemade_jeopardy_title { 
+		text-decoration:none; 
+		font-family: degular-display, sans-serif;
+		font-weight: 700;
+		font-size: 8rem;
+		margin: 0;
+	}
+	.gay-input{
+		background-color: transparent;
+		border-bottom: 3px solid oldlace;
+		border-top: 0;
+		border-right: 0;
+		border-left: 0;
+		color: #202527;
+		width: 30%;
+	}
+
+.gay-input, select, text{
+	color: oldlace;
+	font-family: degular-text;
+	font-weight: 600;
+}
+
+
+/* HOME PAGE */
+	#main_section { width:80%; margin:auto; text-align:center; font-size:120%; }
+	#main_section input {width:80%; font-size:140%; text-align:center; }
+	.identify_yourself {
+		display:flex; 
+		text-align:center; 
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 2rem; 
+		cursor:pointer;
+		background-color:transparent; 
+		margin-bottom:2%; 
+		border: 3.5px solid oldlace;
+		border-radius: 50%;
+		color: oldlace;
+		text-decoration: none;
+	}
+	#host{
+		width: 24rem;
+		height: 7.5rem;
+	}
+	#player{
+		width: 32rem;
+		height: 8rem;
+		position: relative;
+		left: 14.5rem;
+	}
+	#team-button{
+		width: 24rem;
+		height: 7.5rem;
+		float: right;
+		margin-top: 2rem;
+	}
+	.identify_yourself:hover{background-color:oldlace; color: #202527; }
+
+	.what-do {
+		margin-bottom: 2rem; 
+		cursor:pointer;
+		margin-bottom:2%; 
+		color: oldlace;
+		text-decoration: none;
+	}
+	.what-do:hover{
+		color: #202527; 
+	}
+	#load{
+		position: relative;
+		left: 14.5rem;
+	}
+	#create{
+		position: relative;
+		left: 8rem;
+	}
+	.left-align{
+		text-align: left;
+	}
+	h2.homepage-heading{
+		font-size: 4rem;
+		text-align: left;
+	}
+	.identify_yourself h4{
+		font-size: 4rem;
+		text-decoration: none;
+		margin-block-start: 0;
+    	margin-block-end: 0;
+	}
+
+	.what-do h4{
+		font-size: 4rem;
+		text-decoration: none;
+		margin-block-start: 0;
+    	margin-block-end: 0;
+	}
+	.star{
+		font-family: arial;
+	}
+
+/* ANSWERS PAGE*/
+	#team_code { color:oldlace; }
+	#game_code { color:oldlace; }
+	.submitted_answer{ color:limegreen; }
+	#final_jeopardy_button { float:right; }
+	#final_jeopardy_block { margin-top:1%; margin-bottom:1%; }
+
+
+/* Selecting Game*/
+	.game_option_label { border:1px solid black; display:inline-block; width:20%; padding:1%; cursor:pointer; text-align:center; margin-right:2%;}
+	.game_option_label:hover { background-color:lightgray; }
+
+/* ADMIN/HOST VIEW */
+	.edit_game_value { padding:1%; width:80%; }
+	#edit_game_section_table tbody td { padding-bottom:2%; }
+
+	.edit_game_subsection {border-bottom:2px solid white; padding:5%; padding-top:0%; }
+	#game_media a { color:lightblue; }
+	.delete_media { cursor:pointer; }
+	.delete_media:hover { color:red; }
+
+	.rule_input { width:100%; }
+	.rule_delete { float:right; clear:both; color:red; cursor:pointer; font-size:200%;}
+	.rule_entry { margin-bottom:2%; padding:2%; border:1px dashed white; }
+	#type_of_rules { color:red; text-decoration:underline; }
+	.rule_builtin_note { color:red; font-style:italic; }
+/* HOST Views*/
+	#host_instructions { text-align:left; }
+	#host_instructions li { margin-bottom:3%; }
+	#host_instructions a { color:blue; }
+
+/* CREATE GAME VIEW */
+	.create_game_section { width:70%; margin:auto; }
+
+/* MENU */
+	#menu { float:left; width:100%; border-bottom: 1px solid #F5F5F5; padding-bottom:1%; margin-bottom:2%; text-align:center; }
+	#menu h1 { width:100%; text-align:center; margin-bottom:0%;}
+	.menu_button { float:right; margin-right:1%; margin-top:2%; cursor:pointer; }
+	#home_button { display:block; text-align:left; margin-left:1%; margin-top:1%; cursor:pointer; }
+	#home_button button { border:none; font-size:25px; cursor:pointer;}
+	#finalJeopardyButton{ float:right; cursor:pointer; }
+
+/* RULES SECTION */
+	#rules_section h1 { text-align: center; }
+	#rules_section .rule_item { margin-bottom:5%; font-size:120%;}
+
+/* MAIN VIEW */
+	#main_view_section { padding-left:1%; padding-right:1%; display:relative; }
+	#loading_results_section {padding:2%; font-size:200%; color:red;}
+
+/* GAME BOARD */
+	#game_board { width:100%;margin-bottom:3%; }
+	.category { 
+		background-color:transparent; 
+		font-size:64px; 
+		cursor:pointer; 
+		border: 3px solid oldlace;
+		border-radius: 1rem;
+	}
+	.category_column { width:100%; }
+	.category_title { color:#F5F5F5; font-size:25px; height:100px;}
+	.category_option { color:yellow; text-align:center; font-weight:bolder; cursor:pointer;}
+	.final_jeopardy_row { display:block; width:50%;margin:auto; }
+	.final_jeopardy_row td { display:block; width:100%; }
+	.final_jeopardy_row td.category_option { padding-top:10%; padding-bottom:10%; }
+
+/* PRE-TEAMS SECTION */
+	.pre_team_block{ text-align:center; font-size:120%; }
+	.pre_team_block_value { background-color:blue;color:yellow;padding:1%; }
+
+/* TEAMS SECTION */
+	.teams_icons { cursor:pointer; }
+	#teams_sync_section { width:50%;margin:auto; }
+	#teams_table { width:60%; margin:auto; border-spacing:0px; text-align:left; }
+	#teams_table tr th { background-color:#060CE9; color:#F5F5F5; }
+	#teams_table tbody tr td{ border-bottom:2px solid white; border-top:2px solid white; }
+	.team_score { padding:1% }
+	.team_name { border-bottom:2px solid black; }
+
+	/* OLDER */
+	#teams_block { margin:60%;  margin:auto; border-top:1px solid white; padding-top:1%; }
+	.team_section { border:1px solid black; margin:auto; display:inline-block; margin-right:3%;}
+	.team_section h2 { margin-bottom: 0px; margin-top: 0px; }
+	.team_section textarea { resize:none; color:gray; font-style:italic; display:inline-block; width:90%; }
+	.current_turn { border:5px solid green; }
+	.first_place { background-color:orange; color:black; }
+	.second_place { background-color:green; color:white; }
+	.third_place { background-color:maroon; color:white; }
+
+ 
+/* QUESTION VIEW */
+	#question_view { z-index:100; width:100%; position:fixed; bottom:0; top:0; background-color:#060CE9; color:#F5F5F5; text-align:center; overflow-y: scroll; }
+	#question_block { font-size:45px; width:55%; padding:3%; margin:auto; border:1px solid #F5F5F5; margin-bottom:1%; }
+	#answer_block { font-size:44px; width:35%; padding:2%; margin:auto; border:1px solid #F5F5F5; }
+	#time_view { width:45%; text-align:center; margin:auto; }
+	#time_view table {width: 100%;}
+	#timer_second { margin-right:2%; }
+	.timer_value { font-size:65px; }
+	.timer_buttons {  cursor:pointer; font-size:45px; }
+	#revealAnswerButton { font-size:15px; cursor:pointer; }
+	.answer_link { color:white; font-size:50%; }
+	#correct_block table { width:55%; text-align:center; margin:auto; }
+	#correct_block table thead th { border-bottom: 2px solid white;}
+	#correct_block table input { font-size:140%; cursor:pointer; }
+	#correct_block table tbody tr { border-bottom:1px solid black; } 
+	#close_question_view { position:fixed; z-index:1000; top:0; left:0; width:10%; padding:1%; text-align:left; cursor:pointer; }
+
