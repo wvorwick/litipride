@@ -4,7 +4,13 @@
 	.how_to_play_section .instruction { font-size:150%; }
 
 /* GENERAL */
-	body{ margin:0px; padding:0px; background-color:blue; color:#F5F5F5; }
+	body{ 
+		margin:0px; 
+		padding:0px; 
+		background-color:blue; 
+		color:#F5F5F5; 
+		text-transform: lowercase;
+	}
 	.hidden { display:none; }
 	.invisible { visibility: hidden; }
 	#home_button button { background-color:black; color:gray; }
