@@ -225,15 +225,14 @@
 	}
 	.category_column { width:100%; }
 	.category_title { 
-		background-color: oldlace;
-		border-radius: 50%;
-		color:#202527; 
+		color:oldlace; 
 		font-size:25px; 
 		height:100px;
 	}
 	.category_option { 
 		color:oldlace; 
 		border: 3px solid oldlace;
+		border-radius: 50%;
 		text-align:center; 
 		font-weight:bolder; 
 		cursor:pointer;
