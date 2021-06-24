@@ -1,6 +1,6 @@
 /* HOW TO PLAY */
 
-	.how_to_play_section { background-color:red;color:white; text-align:center; }
+	.how_to_play_section { background-color:red;color:oldlace; text-align:center; }
 	.how_to_play_section .instruction { font-size:150%; }
 
 /* GENERAL */
@@ -28,7 +28,7 @@
 	.save_button { background-color:limegreen; color:black; }
 	.test_button { background-color:orange; color:black; }
 	.play_button { background-color:#060CE9; color:yellow;}
-	.hyperlink { background-color:blue; color:white;}
+	.hyperlink { background-color:blue; color:oldlace;}
 
 	.jeopardy_image{ max-width:95%; }
 	#homemade_jeopardy_title { text-decoration:none; }
@@ -177,14 +177,14 @@
 	.edit_game_value { padding:1%; width:80%; }
 	#edit_game_section_table tbody td { padding-bottom:2%; }
 
-	.edit_game_subsection {border-bottom:2px solid white; padding:5%; padding-top:0%; }
+	.edit_game_subsection {border-bottom:2px solid oldlace; padding:5%; padding-top:0%; }
 	#game_media a { color:lightblue; }
 	.delete_media { cursor:pointer; }
 	.delete_media:hover { color:red; }
 
 	.rule_input { width:100%; }
 	.rule_delete { float:right; clear:both; color:red; cursor:pointer; font-size:200%;}
-	.rule_entry { margin-bottom:2%; padding:2%; border:1px dashed white; }
+	.rule_entry { margin-bottom:2%; padding:2%; border:1px dashed oldlace; }
 	#type_of_rules { color:red; text-decoration:underline; }
 	.rule_builtin_note { color:red; font-style:italic; }
 /* HOST Views*/
@@ -257,20 +257,20 @@ tr{
 	.teams_icons { cursor:pointer; }
 	#teams_sync_section { width:50%;margin:auto; }
 	#teams_table { width:60%; margin:auto; border-spacing:0px; text-align:left; }
-	#teams_table tr th { background-color:#060CE9; color:#F5F5F5; }
-	#teams_table tbody tr td{ border-bottom:2px solid white; border-top:2px solid white; }
+	#teams_table tr th { background-color:#060CE9; color:oldlace; }
+	#teams_table tbody tr td{ border-bottom:2px solid oldlace; border-top:2px solid oldlace; }
 	.team_score { padding:1% }
 	.team_name { border-bottom:2px solid black; }
 
 	/* OLDER */
-	#teams_block { margin:60%;  margin:auto; border-top:1px solid white; padding-top:1%; }
+	#teams_block { margin:60%;  margin:auto; border-top:1px solid oldlace; padding-top:1%; }
 	.team_section { border:1px solid black; margin:auto; display:inline-block; margin-right:3%;}
 	.team_section h2 { margin-bottom: 0px; margin-top: 0px; }
 	.team_section textarea { resize:none; color:gray; font-style:italic; display:inline-block; width:90%; }
 	.current_turn { border:5px solid green; }
 	.first_place { background-color:orange; color:black; }
-	.second_place { background-color:green; color:white; }
-	.third_place { background-color:maroon; color:white; }
+	.second_place { background-color:green; color:oldlace; }
+	.third_place { background-color:maroon; color:oldlace; }
 
  
 /* QUESTION VIEW */
@@ -320,14 +320,34 @@ tr{
 		margin-top: 2rem;
 		margin-bottom: 2rem;
 	}
-	.answer_link { color:white; font-size:50%; }
+	.answer_link { color:oldlace; font-size:50%; }
 	.results{
 		margin-top: 15rem;
-		margin-bottom: 5rem;
+		margin-bottom: 15rem;
 	}
-	#correct_block table { width:55%; text-align:center; margin:auto; }
-	#correct_block table thead th { border-bottom: 2px solid white;}
-	#correct_block table input { font-size:140%; cursor:pointer; }
-	#correct_block table tbody tr { border-bottom:1px solid black; } 
-	#close_question_view { position:fixed; z-index:1000; top:0; left:0; width:10%; padding:1%; text-align:left; cursor:pointer; }
+	#correct_block table { 
+		width:55%; 
+		text-align:center; 
+		margin:auto; }
+	#correct_block table thead th { 
+		border-bottom: 2px solid oldlace;
+		font-size: 2rem;
+	}
+	#correct_block table input { 
+		font-size:140%; 
+		cursor:pointer; 
+	}
+	#correct_block table tbody tr { 
+		border-bottom:1px solid black; 
+	} 
+	#close_question_view { 
+		position:fixed; 
+		z-index:1000; 
+		top:0; 
+		left:0; 
+		width:10%; 
+		padding:1%; 
+		text-align:left; 
+		cursor:pointer; 
+	}
 
