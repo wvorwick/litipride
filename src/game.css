@@ -318,6 +318,7 @@ tr{
 		font-size:4rem; 
 		cursor:pointer; 
 		font-weight: 600;
+		float: right;
 	}
 	.answer_link { color:white; font-size:50%; }
 	#correct_block table { width:55%; text-align:center; margin:auto; }
