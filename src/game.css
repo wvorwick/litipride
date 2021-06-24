@@ -54,7 +54,7 @@
 		min-height: 100vh;
 	}
 
-	h1{
+	.main-title{
 		text-decoration: none;
 		font-family: 'Courier New', Courier, monospace;
 		font-weight: 700;
