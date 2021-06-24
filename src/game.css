@@ -88,7 +88,7 @@
 		font-family: degular-text;
 		font-weight: 600;
 	}
-	button.gay-button { 
+	button{ 
 		display:flex; 
 		text-align:center; 
 		align-items: center;
