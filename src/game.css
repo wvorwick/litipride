@@ -293,7 +293,7 @@ tr{
 		font-size:8rem; 
 		font-weight: bold;
 		line-height: 80%;
-		margin:auto; 
+		margin-top: 2rem; 
 	}
 	#time_view { 
 		width:45%; 
