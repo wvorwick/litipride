@@ -71,6 +71,7 @@
 	.star{
 		font-family: sans-serif;
 	}
+	
 
 /* HOME PAGE */
 	#main_section { width:80%; margin:auto; text-align:center; font-size:120%; }
@@ -103,6 +104,9 @@
 		height: 8rem;
 		position: relative;
 		left: 14.5rem;
+	}
+	.big-gay-link:hover{
+		color: #202527;
 	}
 
 /* ANSWERS PAGE*/
