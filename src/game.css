@@ -102,6 +102,7 @@
 		color: oldlace;
 		text-decoration: none;
 		font-family: degular;
+		text-transform: lowercase;
 	}
 	button:hover{
 		background-color:oldlace; 
