@@ -322,7 +322,8 @@ tr{
 	}
 	.answer_link { color:white; font-size:50%; }
 	.results{
-		margin-top: 5rem;
+		margin-top: 15rem;
+		margin-bottom: 5rem;
 	}
 	#correct_block table { width:55%; text-align:center; margin:auto; }
 	#correct_block table thead th { border-bottom: 2px solid white;}
