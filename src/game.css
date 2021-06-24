@@ -54,7 +54,7 @@
 		min-height: 100vh;
 	}
 	.vw80{
-		max-width: 80vw;
+		width: 80vw;
 		margin: auto;
 	}
 
