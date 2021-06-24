@@ -317,10 +317,12 @@ tr{
 		cursor:pointer; 
 		font-size:45px; 
 	}
+	/* 
 	#revealAnswerButton { 
 		font-size:15px; 
 		cursor:pointer; 
 	}
+	*/
 	.answer_link { color:white; font-size:50%; }
 	#correct_block table { width:55%; text-align:center; margin:auto; }
 	#correct_block table thead th { border-bottom: 2px solid white;}
