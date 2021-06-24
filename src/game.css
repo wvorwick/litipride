@@ -219,7 +219,7 @@
 /* GAME BOARD */
 	#game_board { width:100%;margin-bottom:3%; }
 	.category { 
-
+		font-family: degular-display;
 		font-size:64px; 
 		cursor:pointer; 
 	}
