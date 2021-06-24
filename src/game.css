@@ -220,7 +220,7 @@
 	#game_board { width:100%;margin-bottom:5%; }
 	.category { 
 		font-family: degular;
-		font: size 4rem; 
+		font-size: 4rem; 
 		cursor:pointer; 
 	}
 	.category_column { width:90%; }
