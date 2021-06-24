@@ -116,6 +116,14 @@
 	.big-gay-link:hover{
 		color: #202527;
 	}
+	#load{
+		position: relative;
+		left: 14.5rem;
+	}
+	#create{
+		position: relative;
+		left: 8rem;
+	}
 
 /* ANSWERS PAGE*/
 	#team_code { color:orange; }
