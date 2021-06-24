@@ -187,7 +187,10 @@
 		font-family: degular-display;
 	}
 	#rules_section .rule_item { margin-bottom:5%; font-size:120%;}
-	#rules_section .rule { color:oldlace;  }
+	#rules_section .rule { 
+		color:oldlace;  
+		font-size: 2rem;
+	}
 
 /* MAIN VIEW */
 	#main_view_section { padding-left:1%; padding-right:1%; display:relative; }
