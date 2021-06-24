@@ -105,6 +105,13 @@
 		position: relative;
 		left: 14.5rem;
 	}
+	.big-gay-link{
+		margin-bottom: 2rem; 
+		cursor:pointer;
+		margin-bottom:2%; 
+		color: oldlace;
+		text-decoration: none;
+	}
 	.big-gay-link:hover{
 		color: #202527;
 	}
