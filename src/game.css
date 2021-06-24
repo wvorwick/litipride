@@ -280,10 +280,10 @@ tr{
 		position:fixed; 
 		bottom:0; 
 		top:0; 
-		background-color:oldlace; 
-		color:#F5F5F5; 
+		color:oldlace; 
 		text-align:center; 
 		overflow-y: scroll; 
+		font-family: degular;
 	}
 	#question_block { 
 		font-size:45px; 
