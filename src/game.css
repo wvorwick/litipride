@@ -274,15 +274,53 @@ tr{
 
  
 /* QUESTION VIEW */
-	#question_view { z-index:100; width:100%; position:fixed; bottom:0; top:0; background-color:#060CE9; color:#F5F5F5; text-align:center; overflow-y: scroll; }
-	#question_block { font-size:45px; width:55%; padding:3%; margin:auto; border:1px solid #F5F5F5; margin-bottom:1%; }
-	#answer_block { font-size:44px; width:35%; padding:2%; margin:auto; border:1px solid #F5F5F5; }
-	#time_view { width:45%; text-align:center; margin:auto; }
-	#time_view table {width: 100%;}
-	#timer_second { margin-right:2%; }
-	.timer_value { font-size:65px; }
-	.timer_buttons {  cursor:pointer; font-size:45px; }
-	#revealAnswerButton { font-size:15px; cursor:pointer; }
+	#question_view { 
+		z-index:100; 
+		width:100%; 
+		position:fixed; 
+		bottom:0; 
+		top:0; 
+		background-color:oldlace; 
+		color:#F5F5F5; 
+		text-align:center; 
+		overflow-y: scroll; 
+	}
+	#question_block { 
+		font-size:45px; 
+		width:55%; 
+		padding:3%; 
+		margin:auto; 
+		border:1px solid #F5F5F5; 
+		margin-bottom:1%; }
+	#answer_block { 
+		font-size:44px; 
+		width:35%; 
+		padding:2%; 
+		margin:auto; 
+		border:1px solid #F5F5F5; 
+	}
+	#time_view { 
+		width:45%; 
+		text-align:center; 
+		margin:auto; 
+	}
+	#time_view table {
+		width: 100%;
+	}
+	#timer_second { 
+		margin-right:2%; 
+	}
+	.timer_value { 
+		font-size:65px; 
+	}
+	.timer_buttons {  
+		cursor:pointer; 
+		font-size:45px; 
+	}
+	#revealAnswerButton { 
+		font-size:15px; 
+		cursor:pointer; 
+	}
 	.answer_link { color:white; font-size:50%; }
 	#correct_block table { width:55%; text-align:center; margin:auto; }
 	#correct_block table thead th { border-bottom: 2px solid white;}
