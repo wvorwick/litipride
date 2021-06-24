@@ -54,6 +54,13 @@
 		min-height: 100vh;
 	}
 
+	h1{
+		text-decoration: none;
+		font-family: degular-display;
+		font-weight: 700;
+		font-size: 8rem;
+	}
+
 
 /* HOME PAGE */
 	#main_section { width:80%; margin:auto; text-align:center; font-size:120%; }
