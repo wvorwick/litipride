@@ -73,9 +73,24 @@
 /* HOME PAGE */
 	#main_section { width:80%; margin:auto; text-align:center; font-size:120%; }
 	#main_section input {width:80%; font-size:140%; text-align:center; }
-	.identify_yourself { display:block; text-align:center; padding:2%; width:40%; margin:auto; cursor:pointer;
-							 background-color:lightgray; margin-bottom:2%; }
-	.identify_yourself:hover{background-color:blue; color:yellow; }
+	.gay-button { 
+		display:flex; 
+		text-align:center; 
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 2rem; 
+		cursor:pointer;
+		background-color:transparent; 
+		margin-bottom:2%; 
+		border: 3.5px solid oldlace;
+		border-radius: 50%;
+		color: oldlace;
+		text-decoration: none;
+	}
+	.gay-button:hover{
+		background-color:oldlace; 
+		color:#202527; 
+	}
 
 /* ANSWERS PAGE*/
 	#team_code { color:orange; }
