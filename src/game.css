@@ -107,7 +107,8 @@
 		left: 14.5rem;
 	}
 	.big-gay-link{
-		margin-bottom: 1rem; 
+		margin-bottom: 2rem; 
+		margin-top: 0;
 		cursor:pointer;
 		color: oldlace;
 		text-decoration: none;
