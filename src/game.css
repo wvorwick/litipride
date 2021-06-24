@@ -53,6 +53,10 @@
 	.vh-full{
 		min-height: 100vh;
 	}
+	.vw80{
+		width: 80vw;
+		margin: auto;
+	}
 
 	.main-title{
 		text-decoration: none;
