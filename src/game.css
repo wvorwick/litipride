@@ -183,7 +183,9 @@
 	#finalJeopardyButton{ float:right; cursor:pointer; }
 
 /* RULES SECTION */
-	#rules_section h1 { text-align: center; }
+	#rules_section h1 {
+		font-family: degular-display;
+	}
 	#rules_section .rule_item { margin-bottom:5%; font-size:120%;}
 	#rules_section .rule { color:oldlace;  }
 
