@@ -286,18 +286,16 @@ tr{
 		font-family: degular;
 	}
 	#question_block { 
-		font-size:45px; 
+		font-size:4rem; 
 		width:55%; 
 		padding:3%; 
 		margin:auto; 
-		border:1px solid #F5F5F5; 
 		margin-bottom:1%; }
 	#answer_block { 
-		font-size:44px; 
+		font-size:4rem; 
 		width:35%; 
 		padding:2%; 
 		margin:auto; 
-		border:1px solid #F5F5F5; 
 	}
 	#time_view { 
 		width:45%; 
