@@ -103,6 +103,7 @@
 		text-decoration: none;
 		font-family: degular;
 		text-transform: lowercase;
+		padding: 2% 5%;
 	}
 	button:hover{
 		background-color:oldlace; 
