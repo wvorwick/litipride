@@ -340,6 +340,9 @@ tr{
 	#correct_block table tbody tr { 
 		border-bottom:1px solid black; 
 	} 
+	#correct_block table tbody tr label{ 
+		font-size: 2rem;
+	} 
 	#close_question_view { 
 		position:fixed; 
 		z-index:1000; 
