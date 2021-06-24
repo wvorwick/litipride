@@ -217,7 +217,10 @@
 	#loading_results_section {padding:2%; font-size:200%; color:red;}
 
 /* GAME BOARD */
-	#game_board { width:100%;margin-bottom:5%; }
+tr{
+	margin-bottom: 2rem;
+}	
+#game_board { width:100%;margin-bottom:5%; }
 	.category { 
 		font-family: degular;
 		font-size: 4rem; 
@@ -236,8 +239,7 @@
 		text-align:center; 
 		font-weight:bolder; 
 		cursor:pointer;
-		margin: 2rem;
-		padding: 2rem;
+		padding: 0.5rem;
 	}
 	.category_option:hover{
 		background-color: oldlace;
