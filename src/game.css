@@ -284,6 +284,7 @@ tr{
 		text-align:center; 
 		overflow-y: scroll; 
 		font-family: degular;
+		font-weight: bold;
 	}
 	#question_block { 
 		font-size:4rem; 
@@ -293,13 +294,14 @@ tr{
 		margin-bottom:1%; }
 	#answer_block { 
 		font-size:4rem; 
+		font-weight: bold;
 		width:35%; 
 		padding:2%; 
 		margin:auto; 
 	}
 	#time_view { 
 		width:45%; 
-		text-align:center; 
+ 
 		margin:auto; 
 	}
 	#time_view table {
