@@ -71,7 +71,23 @@
 	.star{
 		font-family: arial;
 	}
-	a{text-decoration: none;}
+	a{
+		text-decoration: none;
+	}
+	.gay-input{
+		background-color: transparent;
+		border-bottom: 3px solid oldlace;
+		border-top: 0;
+		border-right: 0;
+		border-left: 0;
+		color: #202527;
+		width: 30%;
+	}
+	.gay-input, select, text{
+		color: oldlace;
+		font-family: degular-text;
+		font-weight: 600;
+	}
 	
 
 /* HOME PAGE */
