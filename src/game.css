@@ -277,7 +277,7 @@ tr{
 	#question_view { 
 		z-index:100; 
 		width: 100%;
-		padding: 0 20vw;
+		padding: 20%;
 		position:fixed; 
 		bottom:0; 
 		top:0; 
