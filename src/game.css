@@ -339,6 +339,8 @@ tr{
 	}
 	#correct_block table tbody tr { 
 		border-bottom:1px solid black; 
+		font-size: 2rem;
+		font-weight: 400;
 	} 
 	#correct_block table tbody tr label{ 
 		font-size: 2rem;
