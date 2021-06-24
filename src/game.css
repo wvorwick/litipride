@@ -68,7 +68,9 @@
 	.size2{
 		font-size: 4rem;
 	}
-
+	.star{
+		font-family: arial;
+	}
 
 /* HOME PAGE */
 	#main_section { width:80%; margin:auto; text-align:center; font-size:120%; }
