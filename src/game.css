@@ -102,7 +102,7 @@
 		color: oldlace;
 		text-decoration: none;
 	}
-	button.gay-button:hover{
+	button:hover{
 		background-color:oldlace; 
 		color:#202527; 
 	}
