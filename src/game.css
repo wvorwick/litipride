@@ -88,6 +88,24 @@
 		font-family: degular-text;
 		font-weight: 600;
 	}
+	button.gay-button { 
+		display:flex; 
+		text-align:center; 
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 2rem; 
+		cursor:pointer;
+		background-color:transparent; 
+		margin-bottom:2%; 
+		border: 3.5px solid oldlace;
+		border-radius: 50%;
+		color: oldlace;
+		text-decoration: none;
+	}
+	button.gay-button:hover{
+		background-color:oldlace; 
+		color:#202527; 
+	}
 	
 
 /* HOME PAGE */
