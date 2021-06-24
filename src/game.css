@@ -219,12 +219,16 @@
 /* GAME BOARD */
 	#game_board { width:100%;margin-bottom:3%; }
 	.category { 
-		background-color: oldlace; 
+
 		font-size:64px; 
 		cursor:pointer; 
 	}
 	.category_column { width:100%; }
-	.category_title { color:#F5F5F5; font-size:25px; height:100px;}
+	.category_title { 
+		background-color: oldlace;
+		color:#F5F5F5; 
+		font-size:25px; 
+		height:100px;}
 	.category_option { color:yellow; text-align:center; font-weight:bolder; cursor:pointer;}
 	.final_jeopardy_row { display:block; width:50%;margin:auto; }
 	.final_jeopardy_row td { display:block; width:100%; }
