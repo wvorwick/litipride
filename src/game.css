@@ -265,7 +265,7 @@ tr{
 	.teams_icons { cursor:pointer; }
 	#teams_sync_section { width:50%;margin:auto; }
 	#teams_table { width:60%; margin:auto; border-spacing:0px; text-align:left; }
-	#teams_table tr th { background-color:#202527; color:oldlace; }
+	#teams_table tr th {color:oldlace; }
 	#teams_table tbody tr td{ border-bottom:2px solid oldlace; border-top:2px solid oldlace; }
 	.team_score { padding:1% }
 	.team_name { border-bottom:2px solid black; }
