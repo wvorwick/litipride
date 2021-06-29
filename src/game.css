@@ -169,7 +169,7 @@
 	#game_code { color:orange; }
 	.submitted_answer{ color:limegreen; }
 	#final_jeopardy_button { float:right; }
-	#final_jeopardy_block { margin-top:1%; margin-bottom:1%; }
+	#final_jeopardy_block { margin:1%;}
 
 
 /* Selecting Game*/
@@ -248,11 +248,7 @@ tr{
 		background-color: oldlace;
 		color: #202527;
 	}
-	.category_option:visited{
-		background-color: #202527!important;
-		border: none!important;
-		color: oldlace!important;
-	}
+
 	.final_jeopardy_row { display:block; width:50%;margin:auto; }
 	.final_jeopardy_row td { display:block; width:100%; }
 	.final_jeopardy_row td.category_option { padding-top:10%; padding-bottom:10%; }
