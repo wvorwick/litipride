@@ -249,9 +249,9 @@ tr{
 		color: #202527;
 	}
 	.category_option:visited{
-		background-color: #202527;
-		border: none;
-		color: oldlace;
+		background-color: #202527!important;
+		border: none!important;
+		color: oldlace!important;
 	}
 	.final_jeopardy_row { display:block; width:50%;margin:auto; }
 	.final_jeopardy_row td { display:block; width:100%; }
