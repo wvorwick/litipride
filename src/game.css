@@ -119,7 +119,7 @@
 
 /* HOME PAGE */
 	#main_section { width:80%; margin:auto; text-align:center; font-size:120%; }
-	.vw80 input {width:80%; font-size:140%; text-align:center; align-self: center;}
+	.vw80 input {width:80%; font-size:140%; text-align:center; align-self: center!important;}
 	.gay-button { 
 		display:flex; 
 		text-align:center; 
