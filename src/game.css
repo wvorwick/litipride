@@ -168,7 +168,7 @@
 	#team_code { color:orange; }
 	#game_code { color:orange; }
 	.submitted_answer{ color:limegreen; }
-	#final_jeopardy_button { float:right; }
+	#final_jeopardy_button { float:right; padding: 1rem; }
 	#final_jeopardy_block { margin:1%;}
 
 
