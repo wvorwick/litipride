@@ -116,7 +116,7 @@
 
 /* HOME PAGE */
 	#main_section { width:80%; margin:auto; text-align:center; font-size:120%; }
-	#main_section input {width:80%; font-size:140%; text-align:center; }
+	.vw80 input {width:80%; font-size:140%; text-align:center; }
 	.gay-button { 
 		display:flex; 
 		text-align:center; 
