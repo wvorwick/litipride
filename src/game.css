@@ -14,7 +14,7 @@
 	.hidden { display:none; }
 	.invisible { visibility: hidden; }
 	#home_button button { background-color:black; color:gray; }
-	.header { font-size:50px !important; }
+	/*.header { font-size:50px !important; }*/
 	.centered{ text-align:center;  }
 	.center_section_50 { width:50%; margin:auto; }
 	.center_section_60 { width:60%; margin:auto; }
@@ -254,13 +254,13 @@ tr{
 
 /* PRE-TEAMS SECTION */
 	.pre_team_block{ text-align:center; font-size:120%; }
-	.pre_team_block_value { background-color:blue;color:yellow;padding:1%; }
+	.pre_team_block_value { background-color:#202527;color:yellow;padding:1%; }
 
 /* TEAMS SECTION */
 	.teams_icons { cursor:pointer; }
 	#teams_sync_section { width:50%;margin:auto; }
 	#teams_table { width:60%; margin:auto; border-spacing:0px; text-align:left; }
-	#teams_table tr th { background-color:#060CE9; color:oldlace; }
+	#teams_table tr th { background-color:#202527; color:oldlace; }
 	#teams_table tbody tr td{ border-bottom:2px solid oldlace; border-top:2px solid oldlace; }
 	.team_score { padding:1% }
 	.team_name { border-bottom:2px solid black; }
