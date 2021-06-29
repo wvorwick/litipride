@@ -358,4 +358,7 @@ tr{
 		text-align:left; 
 		cursor:pointer; 
 	}
+	.who-got-it-right{
+		margin-bottom: 2rem;
+	}
 
