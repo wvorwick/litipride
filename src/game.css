@@ -269,7 +269,7 @@ tr{
 		font-size:4rem; 
 		cursor:pointer; 
 		font-weight: 600;
-		float: right!important;
+		float: right;
 		margin-top: 2rem;
 		margin-bottom: 2rem;
 	}
