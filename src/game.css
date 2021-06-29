@@ -14,7 +14,7 @@
 	.hidden { display:none; }
 	.invisible { visibility: hidden; }
 	#home_button button { background-color:black; color:gray; }
-	/*.header { font-size:50px !important; }*/
+	.header { font-size:50px !important; }
 	.centered{ text-align:center;  }
 	.center_section_50 { width:50%; margin:auto; }
 	.center_section_60 { width:60%; margin:auto; }
@@ -134,6 +134,10 @@
 	.gay-button:hover{
 		background-color:oldlace; 
 		color:#202527; 
+	}
+	.gay-button:visited{
+		background-color:#202527; 
+		color:oldlace; 
 	}
 
 	#host{
