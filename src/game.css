@@ -251,7 +251,7 @@ tr{
 
 	.final_jeopardy_row { display:block; width:50%;margin:auto; }
 	.final_jeopardy_row td { display:block; width:100%; }
-	.final_jeopardy_row td.category_option { padding-top:10%; padding-bottom:10%; }
+	.final_jeopardy_row td.category_option { padding:10%;}
 
 /* PRE-TEAMS SECTION */
 	.pre_team_block{ text-align:center; font-size:120%; }
