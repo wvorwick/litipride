@@ -165,8 +165,8 @@
 	}
 
 /* ANSWERS PAGE*/
-	#team_code { color:orange; }
-	#game_code { color:orange; }
+	#team_code { color: oldlace; }
+	#game_code { color:oldlace; }
 	.submitted_answer{ color:limegreen; }
 	#final_jeopardy_button { float:right; padding: 1rem; }
 	#final_jeopardy_block { margin:1%;}
